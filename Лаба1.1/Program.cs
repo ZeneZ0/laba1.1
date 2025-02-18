@@ -7,7 +7,7 @@ namespace Zad12
         static void Main(string[] args)
         {
             // Задача 1: Конвертация стоимости из копеек в рубли и копейки
-            Console.WriteLine("Задача 1:");
+            Console.WriteLine("Задача 1.1:");
             Console.WriteLine(Logic.ConvertKopecksToRubles(321));  // 3 рубля 21 копейка
             Console.WriteLine(Logic.ConvertKopecksToRubles(1500)); // 15 рублей 0 копеек
             Console.WriteLine(Logic.ConvertKopecksToRubles(100));  // 1 рубль 0 копеек
